@@ -3,6 +3,7 @@ Include EnsHL7
 Class KWAS.HouseCleaningTaskLauncher Extends %SYS.Task.Definition
 {
 
+/// housecleaning task
 Method OnTask() As %Status
 {
 	Set tSC=$$$OK
