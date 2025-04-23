@@ -8,6 +8,7 @@ Class KWAS.KWASTaskLauncher Extends %SYS.Task.Definition
 /// sets any property values using the stored "settings" for the task, and then
 /// invokes this method to execute the task.<br>
 /// In order to execute a real task, override this method in a subclass.
+/// new text here
 Method OnTask() As %Status
 {
  Set tSC=$$$OK
