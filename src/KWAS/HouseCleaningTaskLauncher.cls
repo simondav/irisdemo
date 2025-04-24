@@ -5,6 +5,7 @@ Class KWAS.HouseCleaningTaskLauncher Extends %SYS.Task.Definition
 
 /// housecleaning task
 /// runs on Task Scheduler to clear down old KWAS records
+/// more text here for bugfix branch
 Method OnTask() As %Status
 {
 	Set tSC=$$$OK
