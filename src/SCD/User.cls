@@ -3,6 +3,8 @@ Class SCD.User Extends %Persistent
 
 Property Name As %String [ Required ];
 
+Property Desc As %String [ Required ];
+
 Storage Default
 {
 <Data name="UserDefaultData">
@@ -11,6 +13,9 @@ Storage Default
 </Value>
 <Value name="2">
 <Value>Name</Value>
+</Value>
+<Value name="3">
+<Value>Desc</Value>
 </Value>
 </Data>
 <DataLocation>^SCD.UserD</DataLocation>
