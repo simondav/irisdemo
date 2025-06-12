@@ -3,5 +3,22 @@
         "server": "ucr20212",
         "ns": "HSEDGE1",
         "active": true
+    },
+    "objectscript.export": {
+        
+        "folder": "src",
+        "addCategory": false,
+        "map": {},
+        "atelier": true,
+        "generated": false,
+        "filter": "",
+        "exactFilter": "",
+        "category": "*",
+        "maxConcurrentConnections": 0,
+        "mapped": true
+    },
+    "notebook.codeActionsOnSave": {
+        
+
     }
 }
